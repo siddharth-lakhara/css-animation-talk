@@ -31,3 +31,8 @@ body {
   top: 50%;
   box-sizing: border-box;
 }
+
+.mario {
+  position: relative;
+  top: -45px;
+}
