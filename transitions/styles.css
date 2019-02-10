@@ -1,0 +1,31 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #222222;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.btn {
+  padding: 2%;
+  font-size: 1.3rem;
+  border: 2px solid #2196F3;
+  background: none;
+  color: #2196F3;
+  transition: all 1s;
+  /* transition: padding 1s, color 0.5s, background 2s; */
+}
+
+.btn:hover {
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+}

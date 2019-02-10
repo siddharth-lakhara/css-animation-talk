@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.sky {
+  height: 40%;
+  background: skyblue;
+}
+
+.grass {
+  height: 30%;
+  background: seagreen;
+}
+
+.road {
+  height: 30%;
+  background: dimgray;
+  border-top: 10px solid gray;
+  border-bottom: 10px solid gray;
+  box-sizing: border-box;
+}
+
+.road-divider {
+  border: 5px dashed lightyellow;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  box-sizing: border-box;
+}

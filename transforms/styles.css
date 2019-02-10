@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: skyblue;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.btn {
+  padding: 2%;
+  font-size: 1.3rem;
+  border: 0;
+  background: none;
+  color: white;
+  background: #2196F3;
+  /* transform: translateX(200px); */
+  /* transform: translate(10px, 100px); */
+  /* transform: rotateX(60deg); */
+  /* transform: rotateZ(-90deg); */
+  /* transform: rotateZ(-90deg) translateY(200px); */
+}
